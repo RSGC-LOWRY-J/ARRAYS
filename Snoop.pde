@@ -70,5 +70,3 @@ if (active == true)  {
     return y1;
   }
 }
-
-//snoop = loadImage("snoop.png");

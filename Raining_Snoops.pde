@@ -46,4 +46,15 @@ void setup() {
 void draw() {
 
   background(random(255), random(255), random(255));
+  
+  rain.update(gravity);  //Makes snoop moves
 }
+
+void keyPressed()  {
+  
+  if (key == 'q')  {
+   new Snoop(true);
+   Snoop(random(700), -30, 1, 1);
+  }
+  
+  {
